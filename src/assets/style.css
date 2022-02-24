@@ -22,6 +22,10 @@ body {
   padding: 2rem;
 }
 
+select {
+  margin-bottom: 10px;
+}
+
 .container {
   max-width: 580px;
   margin: 0 auto;
@@ -36,4 +40,21 @@ img {
 
 .button {
   text-decoration: none;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  cursor: pointer;
+  padding-top: 10px
+}
+
+#no-frame-text {
+  text-align: center;
+  padding: 0px 25px;
+  opacity: 35%;
 }
